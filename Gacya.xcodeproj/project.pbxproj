@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7ADADE51DF25E8400027959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADADE41DF25E8400027959 /* AppDelegate.swift */; };
+		F7ADADE71DF25E8400027959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADADE61DF25E8400027959 /* ViewController.swift */; };
+		F7ADADEA1DF25E8400027959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADADE81DF25E8400027959 /* Main.storyboard */; };
+		F7ADADEC1DF25E8400027959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ADADEB1DF25E8400027959 /* Assets.xcassets */; };
+		F7ADADEF1DF25E8400027959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADADED1DF25E8400027959 /* LaunchScreen.storyboard */; };
+		F7ADADFA1DF25E8400027959 /* GacyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADADF91DF25E8400027959 /* GacyaTests.swift */; };
+		F7ADAE051DF25E8400027959 /* GacyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAE041DF25E8400027959 /* GacyaUITests.swift */; };
+		F7ADAE131DF2A70A00027959 /* Image in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAE121DF2A70A00027959 /* Image */; };
+		F7ADAE671DFB8C4C00027959 /* asaImage in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAE661DFB8C4C00027959 /* asaImage */; };
+		F7ADAE691DFB952600027959 /* dessertImage in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAE681DFB952600027959 /* dessertImage */; };
+		F7ADAE6B1DFB9A9100027959 /* hiruImage in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAE6A1DFB9A9100027959 /* hiruImage */; };
+		F7ADAE6D1DFBA03C00027959 /* banImage in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAE6C1DFBA03C00027959 /* banImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7ADADF61DF25E8400027959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7ADADD91DF25E8300027959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7ADADE01DF25E8400027959;
+			remoteInfo = Gacya;
+		};
+		F7ADAE011DF25E8400027959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7ADADD91DF25E8300027959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7ADADE01DF25E8400027959;
+			remoteInfo = Gacya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7ADADE11DF25E8400027959 /* Gacya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gacya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ADADE41DF25E8400027959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7ADADE61DF25E8400027959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7ADADE91DF25E8400027959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7ADADEB1DF25E8400027959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7ADADEE1DF25E8400027959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7ADADF01DF25E8400027959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ADADF51DF25E8400027959 /* GacyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GacyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ADADF91DF25E8400027959 /* GacyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GacyaTests.swift; sourceTree = "<group>"; };
+		F7ADADFB1DF25E8400027959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ADAE001DF25E8400027959 /* GacyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GacyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ADAE041DF25E8400027959 /* GacyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GacyaUITests.swift; sourceTree = "<group>"; };
+		F7ADAE061DF25E8400027959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ADAE121DF2A70A00027959 /* Image */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Image; path = ../../Image; sourceTree = "<group>"; };
+		F7ADAE661DFB8C4C00027959 /* asaImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = asaImage; sourceTree = "<group>"; };
+		F7ADAE681DFB952600027959 /* dessertImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dessertImage; sourceTree = "<group>"; };
+		F7ADAE6A1DFB9A9100027959 /* hiruImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hiruImage; sourceTree = "<group>"; };
+		F7ADAE6C1DFBA03C00027959 /* banImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = banImage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7ADADDE1DF25E8400027959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ADADF21DF25E8400027959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ADADFD1DF25E8400027959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7ADADD81DF25E8300027959 = {
+			isa = PBXGroup;
+			children = (
+				F7ADADE31DF25E8400027959 /* Gacya */,
+				F7ADADF81DF25E8400027959 /* GacyaTests */,
+				F7ADAE031DF25E8400027959 /* GacyaUITests */,
+				F7ADADE21DF25E8400027959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7ADADE21DF25E8400027959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADADE11DF25E8400027959 /* Gacya.app */,
+				F7ADADF51DF25E8400027959 /* GacyaTests.xctest */,
+				F7ADAE001DF25E8400027959 /* GacyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7ADADE31DF25E8400027959 /* Gacya */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADAE6C1DFBA03C00027959 /* banImage */,
+				F7ADAE6A1DFB9A9100027959 /* hiruImage */,
+				F7ADAE681DFB952600027959 /* dessertImage */,
+				F7ADAE661DFB8C4C00027959 /* asaImage */,
+				F7ADAE121DF2A70A00027959 /* Image */,
+				F7ADADE41DF25E8400027959 /* AppDelegate.swift */,
+				F7ADADE61DF25E8400027959 /* ViewController.swift */,
+				F7ADADE81DF25E8400027959 /* Main.storyboard */,
+				F7ADADEB1DF25E8400027959 /* Assets.xcassets */,
+				F7ADADED1DF25E8400027959 /* LaunchScreen.storyboard */,
+				F7ADADF01DF25E8400027959 /* Info.plist */,
+			);
+			path = Gacya;
+			sourceTree = "<group>";
+		};
+		F7ADADF81DF25E8400027959 /* GacyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADADF91DF25E8400027959 /* GacyaTests.swift */,
+				F7ADADFB1DF25E8400027959 /* Info.plist */,
+			);
+			path = GacyaTests;
+			sourceTree = "<group>";
+		};
+		F7ADAE031DF25E8400027959 /* GacyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADAE041DF25E8400027959 /* GacyaUITests.swift */,
+				F7ADAE061DF25E8400027959 /* Info.plist */,
+			);
+			path = GacyaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7ADADE01DF25E8400027959 /* Gacya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ADAE091DF25E8400027959 /* Build configuration list for PBXNativeTarget "Gacya" */;
+			buildPhases = (
+				F7ADADDD1DF25E8400027959 /* Sources */,
+				F7ADADDE1DF25E8400027959 /* Frameworks */,
+				F7ADADDF1DF25E8400027959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gacya;
+			productName = Gacya;
+			productReference = F7ADADE11DF25E8400027959 /* Gacya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7ADADF41DF25E8400027959 /* GacyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ADAE0C1DF25E8400027959 /* Build configuration list for PBXNativeTarget "GacyaTests" */;
+			buildPhases = (
+				F7ADADF11DF25E8400027959 /* Sources */,
+				F7ADADF21DF25E8400027959 /* Frameworks */,
+				F7ADADF31DF25E8400027959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7ADADF71DF25E8400027959 /* PBXTargetDependency */,
+			);
+			name = GacyaTests;
+			productName = GacyaTests;
+			productReference = F7ADADF51DF25E8400027959 /* GacyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7ADADFF1DF25E8400027959 /* GacyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ADAE0F1DF25E8400027959 /* Build configuration list for PBXNativeTarget "GacyaUITests" */;
+			buildPhases = (
+				F7ADADFC1DF25E8400027959 /* Sources */,
+				F7ADADFD1DF25E8400027959 /* Frameworks */,
+				F7ADADFE1DF25E8400027959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7ADAE021DF25E8400027959 /* PBXTargetDependency */,
+			);
+			name = GacyaUITests;
+			productName = GacyaUITests;
+			productReference = F7ADAE001DF25E8400027959 /* GacyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7ADADD91DF25E8300027959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = godpoo3;
+				TargetAttributes = {
+					F7ADADE01DF25E8400027959 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F7ADADF41DF25E8400027959 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F7ADADE01DF25E8400027959;
+					};
+					F7ADADFF1DF25E8400027959 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F7ADADE01DF25E8400027959;
+					};
+				};
+			};
+			buildConfigurationList = F7ADADDC1DF25E8400027959 /* Build configuration list for PBXProject "Gacya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7ADADD81DF25E8300027959;
+			productRefGroup = F7ADADE21DF25E8400027959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7ADADE01DF25E8400027959 /* Gacya */,
+				F7ADADF41DF25E8400027959 /* GacyaTests */,
+				F7ADADFF1DF25E8400027959 /* GacyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7ADADDF1DF25E8400027959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ADAE131DF2A70A00027959 /* Image in Resources */,
+				F7ADAE6B1DFB9A9100027959 /* hiruImage in Resources */,
+				F7ADADEF1DF25E8400027959 /* LaunchScreen.storyboard in Resources */,
+				F7ADAE671DFB8C4C00027959 /* asaImage in Resources */,
+				F7ADAE6D1DFBA03C00027959 /* banImage in Resources */,
+				F7ADADEC1DF25E8400027959 /* Assets.xcassets in Resources */,
+				F7ADADEA1DF25E8400027959 /* Main.storyboard in Resources */,
+				F7ADAE691DFB952600027959 /* dessertImage in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ADADF31DF25E8400027959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ADADFE1DF25E8400027959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7ADADDD1DF25E8400027959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ADADE71DF25E8400027959 /* ViewController.swift in Sources */,
+				F7ADADE51DF25E8400027959 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ADADF11DF25E8400027959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ADADFA1DF25E8400027959 /* GacyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ADADFC1DF25E8400027959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ADAE051DF25E8400027959 /* GacyaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7ADADF71DF25E8400027959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7ADADE01DF25E8400027959 /* Gacya */;
+			targetProxy = F7ADADF61DF25E8400027959 /* PBXContainerItemProxy */;
+		};
+		F7ADAE021DF25E8400027959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7ADADE01DF25E8400027959 /* Gacya */;
+			targetProxy = F7ADAE011DF25E8400027959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7ADADE81DF25E8400027959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ADADE91DF25E8400027959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7ADADED1DF25E8400027959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ADADEE1DF25E8400027959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7ADAE071DF25E8400027959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7ADAE081DF25E8400027959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7ADAE0A1DF25E8400027959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gacya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = godpoo3.Gacya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7ADAE0B1DF25E8400027959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gacya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = godpoo3.Gacya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7ADAE0D1DF25E8400027959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GacyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = godpoo3.GacyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gacya.app/Gacya";
+			};
+			name = Debug;
+		};
+		F7ADAE0E1DF25E8400027959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GacyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = godpoo3.GacyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gacya.app/Gacya";
+			};
+			name = Release;
+		};
+		F7ADAE101DF25E8400027959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GacyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = godpoo3.GacyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gacya;
+			};
+			name = Debug;
+		};
+		F7ADAE111DF25E8400027959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GacyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = godpoo3.GacyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gacya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7ADADDC1DF25E8400027959 /* Build configuration list for PBXProject "Gacya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ADAE071DF25E8400027959 /* Debug */,
+				F7ADAE081DF25E8400027959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ADAE091DF25E8400027959 /* Build configuration list for PBXNativeTarget "Gacya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ADAE0A1DF25E8400027959 /* Debug */,
+				F7ADAE0B1DF25E8400027959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7ADAE0C1DF25E8400027959 /* Build configuration list for PBXNativeTarget "GacyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ADAE0D1DF25E8400027959 /* Debug */,
+				F7ADAE0E1DF25E8400027959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7ADAE0F1DF25E8400027959 /* Build configuration list for PBXNativeTarget "GacyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ADAE101DF25E8400027959 /* Debug */,
+				F7ADAE111DF25E8400027959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7ADADD91DF25E8300027959 /* Project object */;
+}
